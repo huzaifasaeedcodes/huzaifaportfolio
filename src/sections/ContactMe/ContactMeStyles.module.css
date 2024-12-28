@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .center {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+   
+  }
+  
+  .contactDetails {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .phone, .email {
+    
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .phone {
+    text-align: left;
+  }
+  
+  .email {
+    text-align: right;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  a :hover{
+    transform: scale(2.05);
+  }
+  
+  
+  
